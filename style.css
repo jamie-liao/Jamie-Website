@@ -1,0 +1,206 @@
+html {
+	scroll-behavior: smooth;
+	overflow-y: scroll;
+}
+body {
+	margin: 0;
+	padding: 0;
+	/*height: 3750px;*/
+	overflow-x: hidden;
+	background: white;
+	background-image: url("lines.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	top: 0;
+}
+@font-face {
+	font-family: "Linux";
+	src: url("linux.ttf");
+}
+@font-face {
+	font-family: "Hind";
+	src: url("Catamaran-ExtraLight.ttf");
+}
+@font-face {
+	font-family: "Hind-Bold";
+	src: url("Catamaran-Medium.ttf");
+}
+.logo {
+	position: absolute;
+	top: 3px;
+	left: 2px;
+	padding-top: 1.5%;
+	padding-left: 2%;
+	font-family: Linux;
+}
+.logo img {
+	width: 70%;
+}
+.circle {
+	width: 110px;
+	height: 110px;
+    -webkit-transform: translate(-50%, 0);
+	background-color: #a5212b;
+	position: fixed;
+	left: 74.43%;
+	margin-top: 280px;
+	z-index: -3;
+}
+.square {
+	border-radius: 50%;
+	width: 120px;
+	height: 120px;
+	-webkit-transform: translate(-50%, 0);
+	background-color: #e0b80e;
+	position: fixed;
+	margin-top: 270px;
+	left: 49.9%;
+	z-index: -1;
+}
+.triangle {
+	-webkit-transform: translate(-50%, 0);
+	left: 25.6%;
+	margin-top: 265px;
+	z-index: -2;
+}
+#stopPoint {
+	margin-top: 750px;
+	width: 650px;
+	/*height: 400px;*/
+	background-color: #3d59a8;
+	z-index: 5;
+}
+#stopPoint2 {
+	width: 100%;
+	/*height: 1200px;*/
+	background-color: white;
+	margin-top: 150px;
+	z-index: 4;
+	border-top: 2px solid #e0b80e; 
+	border-bottom: 2px solid #e0b80e;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	font-family: Hind;
+}
+#stopPoint3 {
+	float: right;
+	width: 800px;
+	/*height: 480px;*/
+	margin-bottom: 5%;
+	background-color: #a5212b;
+	margin-top: 150px;
+	z-index: 6;
+	font-family: Hind;
+}
+.bio {
+	font-size: 15px;
+	letter-spacing: 2px;
+}
+.caption {
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 55px;
+	font-family: Hind;
+	color: white;
+}
+.title1 {
+	font-size: 100px;
+	font-family: Linux;
+}
+.title1 img {
+	margin-top: 50px;
+}
+.clear {
+	clear: both;
+}
+.contactinfo {
+	/*background-color: yellow;*/
+	color: white;
+	margin-left: 12%;
+	margin-top: 50px;
+	margin-right: 80px;
+}
+.contactinfo a {
+	text-decoration: none;
+	color: pink;
+}
+
+.contactinfo a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+/*navigation bar*/
+/*taken from https://codepen.io/tsimenis/pen/BKdENX and modified*/
+.nav-container {
+	position: fixed;
+	font-family: Linux;
+	font-size: 17px;
+	color: black;
+	text-align: center;
+	background-color: rgba(255, 255, 255, .5);
+	top: 3%;
+	right: 1.5%;
+	letter-spacing: 1px;
+	z-index: 10;
+	border-radius: 2px;
+	padding-bottom: 10px;
+}
+
+.nav-container ul {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-container li {
+  position: relative;
+  display: inline-block;
+  padding: 0 20px;
+  float: right;
+  margin-top: 5px;
+}
+
+.nav-container span {
+  position: relative;
+  display: block;
+  cursor: pointer;
+}
+
+.nav-container span:before, span:after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 1px;
+  top: 50%;
+  margin-top: -0.5px;
+  background: black;
+}
+
+.nav-container span:before {
+  left: -2.5px;
+}
+.nav-container span:after {
+  right: 2.5px;
+  background: black;
+  transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.nav-container span:hover:before {
+  background: black;
+  width: 100%;
+  transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.nav-container span:hover:after {
+  background: transparent;
+  width: 100%;
+  transition: 0s;
+}
+.nav-container a {
+	text-decoration: none;
+	color: black;
+}

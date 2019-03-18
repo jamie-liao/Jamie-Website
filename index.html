@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Jamie Liao</title>
+	<link rel="stylesheet" href="plugins/scrolly/cssanimation.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" href="images/jamiebrand5.png">
+</head>
+
+	<style>
+		/*Homepage Projects*/
+		#stopPoint2 {
+			margin-left: auto;
+			margin-right: auto;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			/*background-image: url("logo.png");*/
+		}
+		.prjbox {
+			font-size: 20px;
+			margin-left: 1.5%;
+			margin-right: 1.5%;
+			margin-top: 1.5%;
+			background-color: white;
+		}
+		.prjbox img {
+			opacity: 1;
+			width: 350px;
+			transition: .5s ease;
+			-moz-transition: .5s ease;
+			-webkit-transition: .5s ease;
+  			backface-visibility: hidden;
+		}
+		.prjbox a {
+			text-decoration: none;
+			color: black;
+		}
+
+		/*greyed image hover effect*/
+		.prjbox:hover img{
+		  opacity: 0.6;
+		}
+		.prjbox p {
+			text-align: center;
+		}
+
+		/*Responsive*/
+		@media all and (min-width: 0px) and (max-width: 768px) {
+			#stopPoint {
+				width: 100%;
+			}
+			#stopPoint3 {
+				width: 100%;
+			}
+		}
+
+		@media all and (min-width: 0px) and (max-width: 1180px) {
+			.prjbox img {
+				width: 400px;
+			}
+		}
+		@media all and (min-width: 0px) and (max-width: 440px) {
+			.title1 img {
+				display: none;
+			}
+			.caption {
+				padding-top: 50px;
+			}
+		}
+		@media all and (min-width: 0px) and (max-width: 700px) {
+			.contactinfo img {
+				display: none;
+			}
+			#stopPoint3 {
+				padding-bottom: 80px;
+			}
+		}
+	</style>
+<body>
+	<div class="logo">
+		<a href="scrollCircle.html"><img src="logo.png"></a>
+	</div>
+	<div class="nav-container">
+	    <ul>
+	      <li><span><a href="#topOfPage">home</a></span></li>
+	      <br>
+	      <li><span><a href="#stopPoint">about me</a></span></li>
+	      <br>
+	      <li><span><a href="#stopPoint2">work</a></span></li>
+	      <br>
+	      <li><span><a href="#stopPoint3">contact</a></span></li>
+	    </ul>
+	 </div>
+
+	 <!-- note: circle is actually square and square is circle -->
+	<div class="square"></div> 
+	<div class="circle"></div>
+	<div class="triangle">
+		<img src="images/triangle.png">
+	</div> 
+	<div class="clear"></div>
+	<div id="topOfPage"></div>
+	<div id="stopPoint" data-scrolly-down="fadeInLeft, duration:1s, timing-function: ease-out">
+		<div class="caption">
+			<div class="title1">
+				hello!
+				<img src="images/triangle.gif" style="z-index: 12; width: 80px;">
+			</div>
+			<p class="bio">I’m a student studying Media Arts and Practice at USC’s School of Cinematic Arts. My focus is in the intersection of technology, design, and emerging media within 2d and 3d spaces. I’m constantly seeking new design challenges centered around sustainability and philanthropic work.</p>
+		</div>
+	</div>
+
+	<div id="stopPoint2" data-scrolly-down="blurInTop" data-scrolly-top="blurInBottom">
+		<div class="prjbox">
+			<a href="projects-html/medmind.html">
+				<img src="images/medmind.jpg">
+				<p>Medmind - UI/UX Design</p>
+			</a>
+		</div>
+		<div class="prjbox">
+			<a href="projects-html/plasticity.html">
+				<img src="images/plasticity.jpg">
+				<p>Plasticity - 2.5D Game</p>
+			</a>
+		</div>
+		<div class="prjbox">
+			<a href="projects-html/odetojess.html">
+				<img src="images/robot.jpg">
+				<p>Ode to Jess - 3D Design</p>
+			</a>
+		</div>
+		<div class="prjbox">
+			<a href="projects-html/match.html">
+				<img src="images/kauffman.png">
+				<p>Cells - Visual Performance</p>
+			</a>
+		</div>	
+		<div class="prjbox">
+			<a href="projects-html/techsoup.html">
+				<img src="images/techsoup.jpg">
+				<p>TechSoup - 2D & 3D Design</p>
+			</a>
+		</div>
+		<div class="prjbox">
+			<a href="projects-html/peak.html">
+				<img src="images/peak5.jpg">
+				<p>Peak - Branding & 2D Design</p>
+			</a>
+		</div>
+		<div class="prjbox">
+			<a href="projects-html/skidrow.html">
+				<img src="images/zine.jpg">
+				<p>Skid Row Art Walk - Graphic Design</p>
+			</a>
+		</div>
+		<div class="prjbox">
+			<a href="projects-html/pangea.html">
+				<img src="images/elixirlabs.png">
+				<p>Pangea Network + Elixir Labs - UI/UX Design</p>
+			</a>
+		</div>	
+		<div class="prjbox">
+			<a href="projects-html/cherrywine.html">
+				<img src="images/cherrywine.jpg">
+				<p>Cherry Wine (MV) - Motion Graphics</p>
+			</a>
+		</div>
+		<div class="prjbox">
+			<a href="projects-html/otherwork.html">
+				<img src="images/otherwork.jpg">
+				<p></p>
+			</a>
+		</div>
+	</div>
+
+	<div id="stopPoint3" data-scrolly-down="fadeInRight, duration:1s, timing-function: ease-out">
+		<div class="contactinfo">
+			<div class="title1">
+				contact.
+			</div>
+			<p class="bio">See something interesting? Want to know more about me? Let's connect! 
+			<br><br>
+			Feel free to shoot me an email at: <a href="mailto:jamieali@usc.edu?" target="_top">jamieali@usc.edu</a>
+			<br><br>
+			<a href="JamieLiao.pdf" target="blank">RESUME</a>
+			<br><br>
+			LinkedIn: <a href="https://linkedin.com/in/jamlia/" target="blank">https://linkedin.com/in/jamlia/</a><br>
+			Vimeo: <a href="https://vimeo.com/jamieliao" target="blank">https://vimeo.com/jamieliao</a>
+			</p>
+			<img src="images/square.gif" style="z-index: 13; width: 80px; float: right; position: relative; bottom: 80px;">
+		</div>
+	</div>
+
+
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script type="text/javascript">
+
+		//stops circle movement before hitting div
+		$(document).ready(function() {
+
+			var topOfOthDiv1 = $("#stopPoint").offset().top;
+			var topOfOthDiv2 = $("#stopPoint2").offset().top;
+			var topOfOthDiv3 = $("#stopPoint3").offset().top;
+			$(window).scroll(function() {
+			    // limits for triangle
+			    if($(window).scrollTop() < topOfOthDiv1-600)
+			    {
+			    	$('.triangle').css({
+				        position:'fixed',
+				        top: 0
+				    });
+			    }
+			    else if($(window).scrollTop() >= topOfOthDiv1-600)
+			    {
+			        $('.triangle').css({
+				        position:'absolute',
+				        top: topOfOthDiv1-600 + 'px'
+				    });
+			    }
+
+			    // limits for circle
+			    if($(window).scrollTop() < topOfOthDiv2-600)
+			    {
+			    	$('.square').css({
+				        position:'fixed',
+				        top: 0
+				    });
+			    }
+			    else if($(window).scrollTop() >= topOfOthDiv2-600)
+			    {
+			        $('.square').css({
+				        position:'absolute',
+				        top: topOfOthDiv2-600 + 'px'
+				    });
+			    }
+
+			    //limits for rectangle
+			    if($(window).scrollTop() < topOfOthDiv3-500)
+			    {
+			    	$('.circle').css({
+				        position:'fixed',
+				        top: 0
+				    });
+			    }
+			    else if($(window).scrollTop() >= topOfOthDiv3-500)
+			    {
+			        $('.circle').css({
+				        position:'absolute',
+				        top: topOfOthDiv3-500 + 'px'
+				    });
+			    }
+
+			});
+		});
+
+		//changes size of circle depending on scroll position
+		$(document).on('scroll', function() {
+			$('.circle').css("width", Math.max(110-0.3*window.scrollY, 30) + "px")
+			$('.circle').css("height", Math.max(110-0.3*window.scrollY, 30) + "px")
+			$('.square').css("width", Math.max(120-0.3*window.scrollY, 30) + "px")
+			$('.square').css("height", Math.max(120-0.3*window.scrollY, 30) + "px")
+			$('.triangle img').css("width", Math.max(125-0.3*window.scrollY, 32) + 6 + "px")
+		});
+	</script>
+
+	<script type="text/javascript" src="plugins/scrolly/scrolly.js"></script>
+    <script>
+       window.onload = function() {
+          scrolly();
+       }; 
+    </script>
+</body>
+</html>
