@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Jamie Liao - Skid Row Art Walk</title>
+	<link rel="stylesheet" href="../plugins/scrolly/cssanimation.css">
+	<link rel="stylesheet" type="text/css" href="../style.css">
+	<link rel="icon" href="../images/jamiebrand5.png">
+</head>
+	<style>
+		.subproject {
+			width: 60%;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 100px;
+			margin-bottom: 100px;
+		}
+		.subprojectWide {
+			width: 70%;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 50px;
+			margin-bottom: 100px;
+		}
+		.subprojectWide .descriptor {
+			float: left;
+			width: 50%;
+			/*background-color: red;*/
+			padding: 30px;
+		}
+		.mockups {
+			width: 100%;
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+		.subprojectWide img {
+			float: left;
+		}
+		.mockup1 img {
+			width: 100%;
+		}
+		.subproject img {
+			width: 100%;
+		}
+		.descriptor {
+			background-color: white;
+			padding: 30px;
+			margin-top: 50px;
+		}
+		.descriptorTitle {
+			font-size: 40px;
+			font-family: Linux;
+			background-color: white;
+		}
+		.descriptorInfo {
+			font-family: Hind;
+			font-size: 18px;
+			background-color: white;
+			padding-bottom: 50px;
+		}
+		.workTitle {
+			font-size: 50px;
+			font-family: Linux;
+			padding-top: 3%;
+			padding-bottom: 3%;
+			background-color: white;
+			text-align: center;
+		}
+		.smallContainer {
+			width: 60%;
+			margin-left: auto;
+			margin-right: auto;
+
+		}
+		/*Responsive*/
+		@media all and (min-width: 0px) and (max-width: 768px) {
+			.subproject {
+				width: 90%;
+			}
+		}
+	</style>
+<body>
+	<div class="logo">
+		<a href="../index.html"><img src="../logo.png"></a>
+	</div>
+	<div class="nav-container">
+	    <ul>
+	       <li><span><a href="../index.html">home</a></span></li>
+	    </ul>
+	 </div>
+
+	 <div class="subproject">
+	 	<div class="workTitle" data-scrolly-down="blurInTop" data-scrolly-top="blurInBottom">
+				skid row art walk.
+				<span style="color: grey; font-size: 20px; margin-top: -20px;">graphic design</span>
+		</div>
+	 	<img src="../images/zine.png" data-scrolly-down="blurInTop" data-scrolly-top="blurInBottom">
+
+	 	<div class="descriptor" data-scrolly-down="blurInTop" data-scrolly-top="blurInBottom">
+			<div class="descriptorTitle">
+				overview.
+			</div>
+			<p class="descriptorInfo">The Skid Row Art Walk is a monthly, outdoor gallery event that showcases artwork produced by the community in Skid Row, with the purpose of uplifting artists in Skid Row, building community within Downtown Los Angeles and providing art education as well as skills training. <br><br>
+
+			The Skid Row Art Walk is an event made possible by the collaborative efforts of our workshop leaders, local community resource centers and Skid Row community social enterprises.<br><br>
+			This was part of a social change campaign pitch that involved incorporating <q>civic imagination</q>. Collaborated with three other students, created all visual assets, merchandise, and brand guidelines. Not a real event.
+		</p>
+		</div>
+
+		<div class="smallContainer">
+			<img src="../images/skidrow3.png" data-scrolly-down="blurInTop">
+			<img src="../images/skidrow0.jpg" data-scrolly-down="blurInTop">
+			<img src="../images/skidrow1.jpg" data-scrolly-down="blurInTop">
+			<img src="../images/skidrow2.jpg" data-scrolly-down="blurInTop">
+			<img src="../images/skidrow4.jpg" data-scrolly-down="blurInTop">
+		</div>
+		
+	 </div>
+
+	<script type="text/javascript" src="../plugins/scrolly/scrolly.js"></script>
+    <script>
+       window.onload = function() {
+          scrolly();
+       }; 
+    </script>
+
+</body>
+</html>

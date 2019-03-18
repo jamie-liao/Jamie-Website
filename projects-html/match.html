@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Jamie Liao - Cells</title>
+	<link rel="stylesheet" href="../plugins/scrolly/cssanimation.css">
+	<link rel="stylesheet" type="text/css" href="../style.css">
+	<link rel="icon" href="../images/jamiebrand5.png">
+</head>
+
+<style>
+	.content {
+		/*background-color: blue;*/
+		margin-left: auto;
+		margin-right: auto;
+		/*display: flex;*/
+		/*flex-wrap: wrap;*/
+		max-width: 900px;
+		/*justify-content: center;*/
+		margin-bottom: 7%;
+		font-family: "Hind";
+	}
+	.final img {
+		width: 100%;
+		padding-bottom: 2%;
+		padding-left: 2%;
+		padding-right: 2%;
+	}
+	.video-container {
+		margin: 2%;
+		position: relative;
+		padding-bottom: 56.25%;
+		padding-top: 30px; height: 0; overflow: hidden;
+	}
+
+	.video-container iframe,
+	.video-container object,
+	.video-container embed {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+	.subproject {
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 100px;
+		margin-bottom: 100px;
+	}
+	.workTitle {
+		font-size: 50px;
+		font-family: Linux;
+		padding-top: 3%;
+		padding-bottom: 3%;
+		background-color: white;
+		text-align: center;
+		margin-top: 100px;
+	}
+	.descriptor {
+		background-color: white;
+		padding: 30px;
+		margin-top: 50px;
+	}
+	.descriptorTitle {
+		font-size: 40px;
+		font-family: Linux;
+		background-color: white;
+	}
+	.descriptorInfo {
+		font-family: Hind;
+		font-size: 18px;
+		background-color: white;
+		padding-bottom: 50px;
+	}
+	/*Responsive*/
+	@media all and (min-width: 0px) and (max-width: 768px) {
+		.content{
+			margin-top: 15%;
+		}
+	}
+
+</style>
+<body>
+	<div class="logo">
+		<a href="../index.html"><img src="../logo.png"></a>
+	</div>
+	<div class="nav-container">
+	    <ul>
+	       <li><span><a href="../index.html">home</a></span></li>
+	    </ul>
+	 </div>
+
+	 <div class="workTitle" data-scrolly-down="blurInTop" data-scrolly-top="blurInBottom">
+			cells.
+			<span style="color: grey; font-size: 20px; margin-top: -20px;">visual performance</span>
+	</div>
+
+	<div class="content" data-scrolly-down="blurInTop" data-scrolly-top="blurInBottom">
+		<div class="video-container">
+			<iframe src="https://player.vimeo.com/video/323395181" width="853" height="480" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>></iframe>
+		</div>
+	</div>
+
+	<div class="subproject">
+	 	<div class="descriptor" data-scrolly-down="blurInTop" data-scrolly-top="blurInBottom">
+			<div class="descriptorTitle">
+				overview.
+			</div>
+			<p class="descriptorInfo"> <q>Cells is a visual performance of the body in pleasure and defeat by the spectator and oneself. An ensemble of video screens blend with live music and dance performance on stage to present mixed video and computer graphics sequences of each performer within three connected video cells. This large-format, multi-screen video display is assembled from three aligned Full HD 40-inch video screens forming a total 5760 x 1080 canvas. <br><br>
+			Performers place and align the screens on stage, which upon lights up, are filled with recorded video of their movement in silhouette and 3D data visualizations of their bodies. As scenography, the three cells are located upstage as to resemble a distant panoptic design. The screens are visual cells and each cell entraps the video subject within. The performers are inmates of the panoptic design as they move about the space, physically monitoring their own self-image represented in visible light and data points. The audience has ultimate supervision of the prison, video cells and dance performers.</q><br><br>
+			Cells, a collaboration between USC Kauffman School of Dance and Thornton School of Music, is currently a work in progress. </p>
+		</div>
+
+		<div class="descriptor" data-scrolly-down="blurInTop" data-scrolly-top="blurInBottom">
+			<div class="descriptorTitle">
+				role.
+			</div>
+			<p class="descriptorInfo"> I am one of the three artists working on creating particle systems with the photogrammetry scans of the dancers in the show. I worked with Maya's mash network and high poly models to create the final effect seen in the video above.<br><br>
+
+			Rendered in Arnold. Below is the 3 HD video screens version.</p>
+		</div>
+	</div>
+
+	<div class="content" data-scrolly-down="blurInTop" data-scrolly-top="blurInBottom">
+		<div class="video-container">
+			<iframe src="https://player.vimeo.com/video/323395939" width="853" height="480" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>></iframe>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="../plugins/scrolly/scrolly.js"></script>
+    <script>
+       window.onload = function() {
+          scrolly();
+       }; 
+    </script>
+</body>
+</html>

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Jamie Liao - Techsoup</title>
+	<link rel="stylesheet" href="../plugins/scrolly/cssanimation.css">
+	<link rel="stylesheet" type="text/css" href="../style.css">
+	<link rel="icon" href="../images/jamiebrand5.png">
+</head>
+	<style>
+		.subproject {
+			width: 60%;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 100px;
+			margin-bottom: 100px;
+		}
+		.subprojectWide {
+			width: 70%;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 50px;
+			margin-bottom: 100px;
+		}
+		.subprojectWide .descriptor {
+			float: left;
+			width: 50%;
+			/*background-color: red;*/
+			padding: 30px;
+		}
+		.subprojectWide img {
+			float: left;
+		}
+		.mockup1 img {
+			width: 100%;
+		}
+		.subproject img {
+			width: 100%;
+		}
+		.descriptor {
+			background-color: white;
+			padding: 30px;
+			margin-top: 50px;
+		}
+		.descriptorTitle {
+			font-size: 40px;
+			font-family: Linux;
+			background-color: white;
+		}
+		.descriptorInfo {
+			font-family: Hind;
+			font-size: 18px;
+			background-color: white;
+			padding-bottom: 50px;
+		}
+		.descriptorInfo a:hover {
+			color: black;
+		}
+		.workTitle {
+			font-size: 50px;
+			font-family: Linux;
+			padding-top: 3%;
+			padding-bottom: 3%;
+			background-color: white;
+			text-align: center;
+		}
+		.mockup1 {
+			z-index: 5;
+			width: 40%;
+		}
+		.instaStories {
+			width: 25%;
+			float: left;
+			margin: 1%;
+			margin-bottom: 50px;
+		}
+		.instaStories2 {
+			width: 44%;
+			float: left;
+			margin: 1%;
+			margin-bottom: 100px;
+		}
+		.story {
+			width: 100%;
+		}
+		/*Responsive Google Slides*/
+		.content {
+			/*background-color: red;*/
+			margin-left: auto;
+			margin-right: auto;
+			display: flex;
+			flex-wrap: wrap;
+			max-width: 960px;
+			justify-content: center;
+			margin-top: 7%;
+			margin-bottom: 7%;
+		}
+		/*Responsive*/
+		@media all and (min-width: 0px) and (max-width: 768px) {
+			.subproject {
+				width: 90%;
+			}
+			.subprojectWide {
+				width: 90%;
+			}
+			.instaStories {
+				width: 48%;
+			}
+			.instaStories2 {
+				width: 100%;
+			}
+		}
+		@media all and (min-width: 0px) and (max-width: 1180px) {
+			.subprojectWide .descriptor {
+				width: 100%;
+				margin-right: 30px;
+				padding: 30px;
+			}
+			.mockup1 {
+				width: 60%;
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+		@media all and (min-width: 0px) and (max-width: 400px) {
+			.mockup1 {
+				width: 60%;
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+	</style>
+<body>
+	<div class="logo">
+		<a href="../index.html"><img src="../logo.png"></a>
+	</div>
+	<div class="nav-container">
+	    <ul>
+	       <li><span><a href="../index.html">home</a></span></li>
+	    </ul>
+	 </div>
+
+	 <div class="subproject">
+	 	<div class="workTitle" data-scrolly-down="blurInTop" data-scrolly-top="blurInBottom">
+				techsoup.
+				<span style="color: grey; font-size: 20px; margin-top: -20px;">2D & 3D Design</span>
+		</div>
+	 	<img src="../images/techsoup1.png" data-scrolly-down="blurInTop" data-scrolly-top="blurInBottom">
+
+	 	<div class="descriptor" data-scrolly-down="blurInTop" data-scrolly-top="blurInBottom">
+			<div class="descriptorTitle">
+				overview.
+			</div>
+			<p class="descriptorInfo">I interned for <a href="https://www.techsoup.org/" style="text-decoration: none;" target="blank">TechSoup</a>, a social enterprise that sells a plethora of tech products and provides tech services for discounted prices to nonprofits, the summer after my first year in college. I came on board as a graphic design intern and worked on: creating social media assets, launching an integrated marketing campaign to drive nonprofit registration with other fellow interns, and eventually published <a href="https://blog.techsoup.org/posts/choosing-the-right-adobe-creative-cloud-app-for-your-nonprofits-project?utm_content=75849322&utm_medium=social&utm_source=twitter" style="text-decoration: none;" target="blank">my own blog post</a> under Techsoup's blog.</p>
+		</div>
+
+		<!-- <div class="descriptor" data-scrolly-down="blurInTop" data-scrolly-top="blurInBottom">
+			<div class="descriptorTitle">
+				adobe infographic.
+			</div>
+			<p class="descriptorInfo">Cancer treatment itself involves <span style="font-family: Hind-Bold;">taking a lot of medication.</span> Additionally, patients may also be taking <span style="font-family: Hind-Bold;">“as-needed” drugs</span> to ease any cancer-related symptoms. This means that some patients may be taking up to <span style="font-family: Hind-Bold;">30 to 40 pills per day.</span> Tracking the dosage, time, and symptoms of every single one of those medications daily is undeniably a challenge.</p>
+		</div>
+
+		<div class="descriptor" data-scrolly-down="blurInTop" data-scrolly-top="blurInBottom">
+			<div class="descriptorTitle">
+				role.
+			</div>
+			<p class="descriptorInfo">The minimum viable product (MVP) was designed by students studying oncology and tested with real cancer patients before I joined the team. However, I was given permission to do a redesign before the product is launched at the end of 2019. <br><br>
+
+			<span style="font-family: Hind-Bold;">Due to confidentiality purposes, only previews of the ongoing project can be posted publicly. Below is a snippet of my design process with the day screen of our application.</span></p>
+		</div> -->
+	 </div>
+
+	 <div class="subprojectWide">
+	 	<div class="mockup1">
+	 		<img src="../images/techsoup1.png">
+	 	</div>
+
+	 	<div class="descriptor" data-scrolly-down="fadeInRight, duration:1s, timing-function: ease-out" style="margin-top: 0;">
+	 		<div class="descriptorTitle"">
+				adobe infographic.
+			</div>
+			<p class="descriptorInfo">
+				<q>Adobe Creative Cloud offers a wide range of applications used to create just about anything you'd like to produce at your nonprofit. However, sometimes it's difficult to decide which tool is best for a specific project. This handy infographic helps guide you through the process.</q><br><br>
+				Originally, a blog post was published three years ago by Techsoup with a short quiz that would determine which Creative Cloud app is the best fit for a nonprofit's project. However, the quiz had a few glitches in the pathway and new Creative Cloud app products had since been added. Thus, I was tasked to recreate this quiz but in infographic form, so users could see all the products available but also go through the infographic to find the most applicable product for the task on hand. The design process involved collaborating with my manager on redesigning the pathways to certain Adobe products and a lot of rearrangement while keeping heirarchy and digestable layout in mind.
+			</p>
+		</div>
+
+		<div class="clear"></div>
+
+		<div class="descriptorTitle" data-scrolly-down="blurInTop" data-scrolly-top="blurInBottom">
+			social media.<br><br>
+		</div>
+		<img src="../images/techsoup4.png" class="story" data-scrolly-down="blurInTop">
+		<p class="descriptorInfo">
+			Human/Photograph-Centered Instagram Stories Template
+		</p>
+		<img src="../images/techsoup5.png" class="story" data-scrolly-down="blurInTop">
+		<p class="descriptorInfo">
+			Corporate Themed Instagram Stories Template
+		</p>
+		<img src="../images/techsoup7.png" class="story" data-scrolly-down="blurInTop">
+		<p class="descriptorInfo">
+			Webinar Promotion Instagram Stories Template
+		</p>
+
+		<p class="descriptorInfo">
+			Techsoup hosts free webinars for its partner nonprofits all over the world and wanted to increase engagement with its users. With TechSoup's increasing social media presence, I was given the task to create templates for instagram stories that would not only promote webinars and TechSoup deals but also share impact stories and nonprofit storytelling content. I created three categories of templates shown above which could be customized for their specific purposes and also pushed the boundaries by creating moving Instagram stories and posts shown below.
+		</p>
+
+		<div class="instaStories" data-scrolly-down="blurInTop">
+			<video width="100%" autoplay loop muted>
+			  <source src="../images/techsoup2.mp4" type="video/mp4">
+			  <source src="../images/techsoup2.mp4" type="video/ogg">
+			  Your browser does not support the video tag.
+			</video>
+		</div>
+
+		<div class="instaStories" data-scrolly-down="blurInTop">
+			<video width="100%" autoplay loop muted>
+			  <source src="../images/techsoup3.mp4" type="video/mp4">
+			  <source src="../images/techsoup4.mp4" type="video/ogg">
+			  Your browser does not support the video tag.
+			</video>
+		</div>
+
+		<div class="instaStories2" data-scrolly-down="blurInTop">
+			<video width="100%" autoplay loop muted>
+			  <source src="../images/techsoup9.mp4" type="video/mp4">
+			  <source src="../images/techsoup9.mp4" type="video/ogg">
+			  Your browser does not support the video tag.
+			</video>
+		</div>
+	 </div>
+
+	 <div class="clear"></div>
+
+	 <div class="content">
+		<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTniht8AE4npOha30AP9xKD1pYPpVZCY9VMBEaH1OGURS5AuU_AFgwiymwRyTgsKr0pfqw39X7Ntb3U/embed?start=true&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+	</div>
+
+	<script type="text/javascript" src="../plugins/scrolly/scrolly.js"></script>
+    <script>
+       window.onload = function() {
+          scrolly();
+       }; 
+    </script>
+
+</body>
+</html>

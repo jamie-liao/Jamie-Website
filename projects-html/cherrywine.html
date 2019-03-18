@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Jamie Liao - Cherry Wine</title>
+	<link rel="stylesheet" href="../plugins/scrolly/cssanimation.css">
+	<link rel="stylesheet" type="text/css" href="../style.css">
+	<link rel="icon" href="../images/jamiebrand5.png">
+</head>
+
+<style>
+	.content {
+		/*background-color: blue;*/
+		margin-left: auto;
+		margin-right: auto;
+		/*display: flex;*/
+		/*flex-wrap: wrap;*/
+		max-width: 900px;
+		/*justify-content: center;*/
+		margin-bottom: 7%;
+		font-family: "Hind";
+	}
+	.final img {
+		width: 100%;
+		padding-bottom: 2%;
+		padding-left: 2%;
+		padding-right: 2%;
+	}
+	.video-container {
+		margin: 2%;
+		position: relative;
+		padding-bottom: 56.25%;
+		padding-top: 30px; height: 0; overflow: hidden;
+	}
+
+	.video-container iframe,
+	.video-container object,
+	.video-container embed {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+	.subproject {
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 100px;
+		margin-bottom: 100px;
+	}
+	.workTitle {
+		font-size: 50px;
+		font-family: Linux;
+		padding-top: 3%;
+		padding-bottom: 3%;
+		background-color: white;
+		text-align: center;
+		margin-top: 100px;
+	}
+	.descriptor {
+		background-color: white;
+		padding: 30px;
+		margin-top: 50px;
+	}
+	.descriptorTitle {
+		font-size: 40px;
+		font-family: Linux;
+		background-color: white;
+	}
+	.descriptorInfo {
+		font-family: Hind;
+		font-size: 18px;
+		background-color: white;
+		padding-bottom: 50px;
+	}
+	/*Responsive*/
+	@media all and (min-width: 0px) and (max-width: 768px) {
+		.content{
+			margin-top: 15%;
+		}
+	}
+
+</style>
+<body>
+	<div class="logo">
+		<a href="../index.html"><img src="../logo.png"></a>
+	</div>
+	<div class="nav-container">
+	    <ul>
+	       <li><span><a href="../index.html">home</a></span></li>
+	    </ul>
+	 </div>
+
+	 <div class="workTitle" data-scrolly-down="blurInTop" data-scrolly-top="blurInBottom">
+			cherry wine.
+			<span style="color: grey; font-size: 20px; margin-top: -20px;">motion graphics</span>
+	</div>
+
+	<div class="content" data-scrolly-down="blurInTop" data-scrolly-top="blurInBottom">
+		<div class="video-container">
+			<iframe src="https://player.vimeo.com/video/323394883" width="853" height="480" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>></iframe>
+		</div>
+	</div>
+
+	<div class="subproject">
+	 	<div class="descriptor" data-scrolly-down="blurInTop" data-scrolly-top="blurInBottom">
+			<div class="descriptorTitle">
+				overview.
+			</div>
+			<p class="descriptorInfo">  I chose to animate a short music video to Cherry Wine by Hozier because it has been a song I've been listening on repeat in the mornings and at night to calm myself down, but also very ironically is about abuse in a relationship. The song stood out to me because it challenged conventional narratives of what abuse looks like -- the man as the abuser, the woman as the victim. The beautifully poetic song metaphorically represents the idea that abuse can often be overlooked, forgiven, and even disguised as love. Romantic relationships require such emotional investment, time, and commitment, loosing that familiarity induces fear that fuels the cycle of tolerance towards abuse.<br><br>
+
+			My animation works to abstract the contradictory forces of love and abuse and the blurred line between the two when one is part of an abusive relationship. The two blobs that interact and <q>dance</q> with each other throughout the music video represents the two individuals described in the music piece.
+ </p>
+		</div>
+
+		<div class="descriptor" data-scrolly-down="blurInTop" data-scrolly-top="blurInBottom">
+			<div class="descriptorTitle">
+				role.
+			</div>
+			<p class="descriptorInfo">Creator. Made in After Effects.</p>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="../plugins/scrolly/scrolly.js"></script>
+    <script>
+       window.onload = function() {
+          scrolly();
+       }; 
+    </script>
+</body>
+</html>

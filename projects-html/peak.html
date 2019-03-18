@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Jamie Liao - Peak</title>
+	<link rel="stylesheet" href="../plugins/scrolly/cssanimation.css">
+	<link rel="stylesheet" type="text/css" href="../style.css">
+	<link rel="icon" href="../images/jamiebrand5.png">
+</head>
+
+<style>
+	/*Responsive Google Slides*/
+	.content {
+		/*background-color: red;*/
+		margin-left: auto;
+		margin-right: auto;
+		display: flex;
+		flex-wrap: wrap;
+		max-width: 960px;
+		justify-content: center;
+		margin-bottom: 7%;
+	}
+	.content p {
+		padding-bottom: 2%;
+		font-size: 25px;
+	}
+	.pptslide1 img, .pptslide2 img, .pptslide3 img {
+		max-width: 100%;
+		min-width: 100%;
+		padding-top: 3%;
+	}
+	.pptslide1, .pptslide2, .pptslide3 {
+		/*background-color: yellow;*/
+		width: 45%;
+		margin-bottom: 5%;
+	}
+	.caption1, .caption2, .caption3 {
+		width: 45%;
+		background-color: white;
+		padding-right: 4%;
+		padding-bottom: 2%;
+		padding-left: 4%;
+		padding-top: 2%;
+	}
+	.caption-exception1, .caption-exception2 {
+		width: 100%;
+		/*background-color: blue;*/
+		padding-left: 3%;
+		padding-right: 3%;
+		padding-bottom: 2%;
+		padding-top: 4%;
+	}
+	h4 {
+		text-align: left;
+	}
+	.pptslide-exception1 img, .pptslide-exception2 img, .pptslide-exception2 img {
+		width: 100%;
+		/*background-color: orange;*/
+	}
+	.workTitle {
+		font-size: 50px;
+		font-family: Linux;
+		padding-top: 3%;
+		padding-bottom: 3%;
+		background-color: white;
+		text-align: center;
+		margin-top: 100px;
+	}
+	.descriptorTitle {
+		font-size: 30px;
+		font-family: Linux;
+		background-color: white;
+	}
+	.descriptorInfo {
+		font-family: Hind;
+		background-color: white;
+	}
+
+	/*responsive*/
+	@media all and (min-width: 0px) and (max-width: 768px) {
+		.content {
+			margin-top: 15%;
+		}
+	}
+	@media all and (min-width: 0px) and (max-width: 800px) {
+		.caption1, .caption2, .caption3 {
+			width: 100%;
+		}
+		.pptslide1, .pptslide2, .pptslide3 {
+			width: 100%;
+		}
+		.caption1 {
+			order: 1;
+		}
+		.pptslide1 {
+			order: 2;
+		}
+		.caption2 {
+			order: 3;
+		}
+		.pptslide2 {
+			order: 4;
+		}
+		.caption3 {
+			order: 5;
+		}
+		.pptslide3 {
+			order: 6;
+		}
+		.caption-exception1 {
+			order: 7;
+		}
+		.pptslide-exception0 {
+			order: 8;
+		}
+		.caption-exception2 {
+			order: 9;
+		}
+		.pptslide-exception2 {
+			order: 10;
+		}
+	}
+</style>
+<body>
+	<div class="logo">
+		<a href="../index.html"><img src="../logo.png"></a>
+	</div>
+	<div class="nav-container">
+	    <ul>
+	       <li><span><a href="../index.html">home</a></span></li>
+	    </ul>
+	 </div>
+
+	 <div class="workTitle" data-scrolly-down="blurInTop" data-scrolly-top="blurInBottom">
+			peak.
+			<span style="color: grey; font-size: 20px; margin-top: -20px;">Branding & 2D Design</span>
+	</div>
+
+	<div class="content">
+		<div class="pptslide-exception1" data-scrolly-down="blurInTop" data-scrolly-top="blurInBottom">
+			<img src="../images/peak1.png" style="margin-bottom:8%;">
+		</div>
+		
+		<div class="pptslide1" data-scrolly-down="fadeInLeft, duration:1s, timing-function: ease-out">
+			<img src="../images/peak2.gif">
+		</div>
+		<div class="caption1" data-scrolly-down="fadeInRight, duration:1s, timing-function: ease-out">
+			<span class="descriptorTitle">problem identification.</span>
+			<p class="descriptorInfo" style="font-size: 17px;">USC has done a great job providing facilities people actually look to use. However, this results in a large demand for these facilities...but little available information about the traffic inside them. This leads to a lot of wasted time waiting or simply going to check out a place, only to find that there’s no room for you there.</p>
+		</div>
+
+		<div class="caption2" style="text-align: right;" data-scrolly-down="fadeInLeft, duration:1s, timing-function: ease-out">
+			<span class="descriptorTitle">what is peak?</span>
+			<p class="descriptorInfo" style="font-size: 17px;">Peak is a non-intrusive messenger bot that provides visualizations of real-time capacity updates and trends about campus facilities. For now, we have chosen to develop the bot with a focus on USC gyms, but in the future, we hope to provide information on other facilities like laundry rooms, libraries, etc. In the long term, we hope to partner with Innosoft Fusion and expand our service to other college campuses.</p>
+		</div>
+		<div class="pptslide2" data-scrolly-down="fadeInRight, duration:1s, timing-function: ease-out">
+			<img src="../images/peak4.png">
+		</div>
+
+		<div class="pptslide3" data-scrolly-down="fadeInLeft, duration:1s, timing-function: ease-out">
+			<img src="../images/peak5.png">
+		</div>
+		<div class="caption3" data-scrolly-down="fadeInRight, duration:1s, timing-function: ease-out">
+			<span class="descriptorTitle">advantage/how it works.</span>
+			<p class="descriptorInfo" style="font-size: 17px;">Past attempts at solving this problem required voluntary participation of gym users to check in and provide accurate information. However, we recognized that on our campus, USC students already have to “check in” through card swipes. By partnering with the gym and school, we’re taking advantage of this existing data source and presenting it to Trojans in a contextualized, meaningful way.</p>
+		</div>
+
+		<img src="../images/peak3.gif" style="width: 100%; height: 100%; padding:2%;" class="pptslide-exception0" data-scrolly-down="blurInTop" data-scrolly-top="blurInBottom">
+
+		<div class="caption-exception1" data-scrolly-down="blurInTop" data-scrolly-top="blurInBottom">
+			<span class="descriptorTitle"">roadmap.</span>
+			<ol class="descriptorInfo" style="font-size: 17px;">
+				<li>Open Launch: Looking ahead, we first want to refine our use of the data and the accuracy of our traffic reports, and then release the product to students in the Spring semester.</li>
+				<li>We’ll ensure its success by marketing organically, targeting frustrated gym users at peak times and also enabling a share button so you can easily share our service with your workout partners.</li>
+				<li>We’re currently given data by USC and an outside vendor called Innosoft Fusion, who operates recreational facilities in hundreds of other big schools. However, their software solution package right now has no apps accessible to students. Down the road, we want to market our platform as part of their package and as the first access point for students to the information that’s collected.</li> <br>
+			</ol>
+		</div>
+
+		<div class="caption-exception2" data-scrolly-down="blurInTop" data-scrolly-top="blurInBottom">
+			<span class="descriptorTitle">role as co-founder/lead designer.</span>
+			<p class="descriptorInfo" style="font-size: 17px;">I worked as the Lead Designer for Peak, a team formed under USC’s premiere startup incubator, Lavalab. By collaborating with developers and product heads, I was able to gain experience in learning how to pitch and build the foundations of a startup. I was in charge of designing marketing materials, the branding package, and other media content for Peak.</p><br><br><br>
+
+			<span class="descriptorTitle">logo ideation.</span>
+		</div>
+
+		<div class="pptslide-exception2" data-scrolly-down="blurInTop" data-scrolly-top="blurInBottom">
+			<img src="../images/logoideation.jpg">
+		</div>
+	</div>
+
+	<div class="content">
+		<span class="descriptorTitle" style="margin-bottom: 3%;">pitch deck.</span>
+		<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRCFZ63HOgguagoAgcbO1LrB1MfKNildca6z-KVmW_aZrnB9MZ7Qrtd6lCbNXH3rsjP08iv2PZf8szw/embed?start=true&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+	</div>
+
+
+	<script type="text/javascript" src="../plugins/scrolly/scrolly.js"></script>
+    <script>
+       window.onload = function() {
+          scrolly();
+       }; 
+    </script>
+</body>
+</html>
